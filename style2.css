@@ -1,0 +1,60 @@
+body {
+    background-image: url('background2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    margin: 50px auto; /* membuat konten berada di tengah */
+    max-width: 600px; /* membatasi lebar konten */
+    background-color: rgba(255, 255, 255, 0.8); /* menambahkan transparansi pada background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* judul */
+.container h1 {
+    text-align: center;
+}
+
+.input-form {
+    margin-left: 20px;
+}
+
+.input-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: calc(100% - 40px); /* Lebar input - margin */
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    width: 100%; /* Agar tombol penuh lebar */
+    padding: 10px;
+    background-color: #FBD1C7; /* Warna latar belakang */
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Jarak antara tombol */
+}
+
+.input-form input[type="submit"] {
+    width: auto; /* Agar tombol tidak penuh lebar */
+}
+
+a.center-button {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}

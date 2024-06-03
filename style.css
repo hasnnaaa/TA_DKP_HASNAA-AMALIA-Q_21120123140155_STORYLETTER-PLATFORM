@@ -1,0 +1,33 @@
+body {
+    background-image: url('background1.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    display: flex; /*konten halaman ditengahkan secara horizontal dan vertikal di tengah layar*/
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 14px; /* Ukuran teks lebih kecil */
+    color: #555; /* Warna teks lebih lembut */
+    margin-top: -10px; /* Jarak antara subtitle dengan judul */
+    margin-bottom: 20px; /* Jarak antara subtitle dengan button container */
+}
+
+button {
+    background-color: #FBD1C7;
+    font-size: 18px;
+    padding: 10px 30px; /*memberi area button pada sisi kanan-kiri dan atas-bawah*/
+    border-color: beige;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, sans-serif; 
+}
